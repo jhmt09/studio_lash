@@ -1,6 +1,6 @@
-# Minara Malvino Studio Lash Designer
+# Inara Malvino Studio Lash Designer
 
-Landing page estática para o Studio Lash, com catálogo de serviços, apresentação da proprietária, informações de atendimento e CTA de agendamento pelo WhatsApp.
+Landing page estática para o Studio Lash, com catálogo de serviços, seção "Quem sou eu", dúvidas e regras, e CTA de agendamento pelo WhatsApp.
 
 ## Publicação
 
