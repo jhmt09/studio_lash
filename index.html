@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta
+      name="description"
+      content="Minara Malvino Studio Lash Designer: alongamento de cílios, design de sobrancelhas e atendimento personalizado em studio."
+    >
+    <meta name="theme-color" content="#130f0c">
+    <meta property="og:title" content="Minara Malvino Studio Lash Designer">
+    <meta
+      property="og:description"
+      content="Catálogo de serviços, horários e agendamento pelo WhatsApp."
+    >
+    <meta property="og:image" content="imagens/Logo.jpeg">
+    <title>Minara Malvino Studio Lash Designer</title>
+    <link rel="icon" href="imagens/Logo.jpeg">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#servicos">Ir para os serviços</a>
+
+    <header class="site-header" data-header>
+      <a class="brand" href="#inicio" aria-label="Inicio Minara Malvino">
+        <img src="imagens/Logo.jpeg" alt="Logo Minara Malvino Studio Lash Designer">
+        <span>
+          <strong>Minara Malvino</strong>
+          <small>Studio Lash Designer</small>
+        </span>
+      </a>
+
+      <button class="menu-button" type="button" aria-expanded="false" aria-controls="site-nav">
+        Menu
+      </button>
+
+      <nav class="site-nav" id="site-nav" aria-label="Navegacao principal">
+        <a href="#servicos">Serviços</a>
+        <a href="#proprietaria">Proprietária</a>
+        <a href="#informacoes">Informações</a>
+        <a class="nav-cta" href="https://wa.me/5562994559077?text=Ol%C3%A1%2C%20quero%20agendar%20um%20hor%C3%A1rio%20no%20Studio%20Lash." target="_blank" rel="noopener">
+          Agendar
+        </a>
+      </nav>
+    </header>
+
+    <main id="inicio">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+          <p class="eyebrow">Cílios, sobrancelhas e autocuidado</p>
+          <h1 id="hero-title">Minara Malvino Studio Lash Designer</h1>
+          <p class="hero-copy">
+            Serviços de beleza para realçar o olhar com acabamento delicado, atendimento com hora marcada
+            e opções pensadas para a rotina de cada cliente.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="https://wa.me/5562994559077?text=Ol%C3%A1%2C%20quero%20agendar%20um%20hor%C3%A1rio%20no%20Studio%20Lash." target="_blank" rel="noopener">
+              Agendar pelo WhatsApp
+            </a>
+            <a class="button secondary" href="#servicos">Ver catálogo</a>
+          </div>
+        </div>
+        <dl class="hero-stats">
+          <div>
+            <dt>8h às 19h</dt>
+            <dd>segunda a sábado</dd>
+          </div>
+          <div>
+            <dt>ate 1h</dt>
+            <dd>aplicações de cílios</dd>
+          </div>
+          <div>
+            <dt>Pix e cartao</dt>
+            <dd>opcoes de pagamento</dd>
+          </div>
+        </dl>
+      </section>
+
+      <section class="intro-band" aria-label="Atalhos de servico">
+        <a href="#cilios">
+          <span>Cílios</span>
+          <strong>Volumes a partir de R$110</strong>
+        </a>
+        <a href="#sobrancelhas">
+          <span>Sobrancelhas</span>
+          <strong>Design a partir de R$25</strong>
+        </a>
+        <a href="#informacoes">
+          <span>Atendimento</span>
+          <strong>Horário marcado e foco em você</strong>
+        </a>
+      </section>
+
+      <section class="section services-section" id="servicos" aria-labelledby="servicos-title">
+        <div class="section-heading">
+          <p class="eyebrow">Catálogo inteligente</p>
+          <h2 id="servicos-title">Escolha o acabamento ideal para o seu olhar</h2>
+          <p>
+            Os serviços foram organizados por categoria, preço, tempo de aplicação e manutenção para
+            facilitar a decisão antes do agendamento.
+          </p>
+        </div>
+
+        <div class="filter-tabs" role="tablist" aria-label="Filtrar serviços">
+          <button class="filter-button is-active" type="button" data-filter="todos" aria-pressed="true">Todos</button>
+          <button class="filter-button" type="button" data-filter="cilios" aria-pressed="false">Cílios</button>
+          <button class="filter-button" type="button" data-filter="sobrancelhas" aria-pressed="false">Sobrancelhas</button>
+        </div>
+
+        <div class="catalog-layout">
+          <article class="feature-card" id="cilios">
+            <img src="imagens/servi%C3%A7os.jpeg" alt="Tabela de serviços de cílios Minara Malvino">
+            <div>
+              <span>Tabela original</span>
+              <h3>Alongamento de cílios</h3>
+              <p>Volumes com manutenção até 20 dias e aplicação estimada em até 1 hora.</p>
+            </div>
+          </article>
+
+          <div class="service-grid" data-service-grid>
+            <article class="service-card" data-category="cilios">
+              <span class="service-type">Cílios</span>
+              <h3>Volume Brasileiro</h3>
+              <p class="price">R$110</p>
+              <ul>
+                <li>Aplicação: até 1h</li>
+                <li>Manutenção: R$90 até 20 dias</li>
+              </ul>
+            </article>
+            <article class="service-card" data-category="cilios">
+              <span class="service-type">Cílios</span>
+              <h3>Volume Mega Brasileiro</h3>
+              <p class="price">R$130</p>
+              <ul>
+                <li>Aplicação: até 1h</li>
+                <li>Manutenção: R$110 até 20 dias</li>
+              </ul>
+            </article>
+            <article class="service-card" data-category="cilios">
+              <span class="service-type">Cílios</span>
+              <h3>Volume Brasileiro Marrom</h3>
+              <p class="price">R$130</p>
+              <ul>
+                <li>Aplicação: até 1h</li>
+                <li>Manutenção: R$110 até 20 dias</li>
+              </ul>
+            </article>
+            <article class="service-card" data-category="cilios">
+              <span class="service-type">Cílios</span>
+              <h3>Volume Fox Eyes</h3>
+              <p class="price">R$140</p>
+              <ul>
+                <li>Preto ou marrom</li>
+                <li>Manutenção: R$120 até 20 dias</li>
+              </ul>
+            </article>
+            <article class="service-card" data-category="cilios">
+              <span class="service-type">Cílios</span>
+              <h3>Volume 6D</h3>
+              <p class="price">R$130</p>
+              <ul>
+                <li>Aplicação: até 1h</li>
+                <li>Manutenção: R$110 até 20 dias</li>
+              </ul>
+            </article>
+            <article class="service-card" data-category="cilios">
+              <span class="service-type">Cílios</span>
+              <h3>Volume Egípcio</h3>
+              <p class="price">R$120</p>
+              <ul>
+                <li>Aplicação: até 1h</li>
+                <li>Manutenção: R$100 até 20 dias</li>
+              </ul>
+            </article>
+            <article class="service-card" data-category="cilios">
+              <span class="service-type">Cílios</span>
+              <h3>Volume Anime</h3>
+              <p class="price">R$140</p>
+              <ul>
+                <li>Aplicação: até 1h</li>
+                <li>Manutenção: R$120 até 20 dias</li>
+              </ul>
+            </article>
+            <article class="service-card" data-category="sobrancelhas" id="sobrancelhas">
+              <span class="service-type">Sobrancelhas</span>
+              <h3>Design com Henna</h3>
+              <p class="price">R$35</p>
+              <ul>
+                <li>Realce de formato e cor</li>
+                <li>Mais definição para o olhar</li>
+              </ul>
+            </article>
+            <article class="service-card" data-category="sobrancelhas">
+              <span class="service-type">Sobrancelhas</span>
+              <h3>Design de Sobrancelhas</h3>
+              <p class="price">R$25</p>
+              <ul>
+                <li>Limpeza e simetria</li>
+                <li>Acabamento natural</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+
+        <article class="brow-feature">
+          <img src="imagens/servi%C3%A7os%20sobrancelhas.jpeg" alt="Promoção de design de sobrancelhas">
+          <div>
+            <p class="eyebrow">Promocao</p>
+              <h3>Design de sobrancelhas para deixar a rotina mais prática</h3>
+            <p>
+              Uma opção rápida para realçar a beleza do olhar com sofisticação e autocuidado em dia.
+            </p>
+            <a class="inline-link" href="https://wa.me/5562994559077?text=Ol%C3%A1%2C%20quero%20agendar%20design%20de%20sobrancelhas." target="_blank" rel="noopener">
+              Agendar sobrancelhas
+            </a>
+          </div>
+        </article>
+      </section>
+
+      <section class="section owner-section" id="proprietaria" aria-labelledby="proprietaria-title">
+        <div class="owner-media">
+          <img src="imagens/Propriet%C3%A1ria.jpeg" alt="Proprietária Minara Malvino segurando materiais de lash design">
+        </div>
+        <div class="owner-copy">
+          <p class="eyebrow">Por trás do studio</p>
+          <h2 id="proprietaria-title">Atendimento feito por Minara Malvino</h2>
+          <p>
+            A proprietária conduz cada atendimento com foco em acabamento, conforto e escolha do volume
+            que combina com o estilo da cliente.
+          </p>
+          <div class="owner-signature">
+            <span>@im_lash_malvino</span>
+            <a href="https://wa.me/5562994559077?text=Ol%C3%A1%2C%20quero%20falar%20com%20a%20Minara%20sobre%20os%20servi%C3%A7os." target="_blank" rel="noopener">
+              Falar com a Minara
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section info-section" id="informacoes" aria-labelledby="informacoes-title">
+        <div class="section-heading">
+          <p class="eyebrow">Antes de agendar</p>
+          <h2 id="informacoes-title">Informações de atendimento</h2>
+          <p>Dados importantes para chegar no horário sabendo como funciona o studio.</p>
+        </div>
+
+        <div class="info-layout">
+          <div class="info-list">
+            <article>
+              <span>01</span>
+              <h3>Atendimentos</h3>
+              <p>De segunda a sábado, das 8h às 19h.</p>
+            </article>
+            <article>
+              <span>02</span>
+              <h3>Pagamento</h3>
+              <p>Pix, débito e crédito. No crédito, há acréscimo da maquininha.</p>
+            </article>
+            <article>
+              <span>03</span>
+              <h3>Acompanhantes</h3>
+              <p>O horário é reservado exclusivamente para você. Evite levar acompanhantes, principalmente crianças.</p>
+            </article>
+          </div>
+          <figure class="notice-card">
+            <img src="imagens/horarios%20e%20avisos.jpeg" alt="Avisos sobre horários, pagamento e acompanhantes">
+            <figcaption>Resumo original dos avisos publicados pelo studio.</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="final-cta" aria-labelledby="cta-title">
+        <div>
+          <p class="eyebrow">Agenda aberta</p>
+          <h2 id="cta-title">Pronta para escolher seu horário?</h2>
+          <p>Envie uma mensagem com o serviço desejado e combine o melhor horário de atendimento.</p>
+        </div>
+        <a class="button primary" href="https://wa.me/5562994559077?text=Ol%C3%A1%2C%20quero%20agendar%20um%20hor%C3%A1rio%20no%20Studio%20Lash." target="_blank" rel="noopener">
+          Chamar no WhatsApp
+        </a>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Minara Malvino Studio Lash Designer</p>
+      <a href="tel:+5562994559077">(62)&nbsp;99455&#8209;9077</a>
+    </footer>
+  </body>
+</html>
