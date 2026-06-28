@@ -668,6 +668,10 @@ button {
   font-weight: 900;
 }
 
+.developer-credit a {
+  color: var(--gold-bright);
+}
+
 @media (max-width: 1120px) {
   .service-grid,
   .rules-grid {
